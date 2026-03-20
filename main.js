@@ -164,12 +164,12 @@
 // console.log(numbers2.includes(10));
 // console.log(numbers2.indexOf(20));
 
-// let cities = ["Барселона", "Москва", "Будапешт", "Волгоград"];
-// for (let value of cities) {
-//     if (cities.includes("Барселона")) {
-//         console.log(cities.indexOf("Барселона"));
-//     }
-// }
+let cities = ["Барселона", "Москва", "Будапешт", "Волгоград"];
+for (let value of cities) {
+    if (cities.includes("Барселона")) {
+        console.log(cities.indexOf("Барселона"));
+    }
+}
 
 // let count = 7;
 // let user2 = {

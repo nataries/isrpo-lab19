@@ -164,10 +164,63 @@
 // console.log(numbers2.includes(10));
 // console.log(numbers2.indexOf(20));
 
-let cities = ["Барселона", "Москва", "Будапешт", "Волгоград"];
-for (let value of cities) {
-    if (cities.includes("Барселона")) {
-        console.log(cities.indexOf("Барселона"));
-    }
-}
+// let cities = ["Барселона", "Москва", "Будапешт", "Волгоград"];
+// for (let value of cities) {
+//     if (cities.includes("Барселона")) {
+//         console.log(cities.indexOf("Барселона"));
+//     }
+// }
 
+// let count = 7;
+// let user2 = {
+//     name: "Ivan",
+//     age: 20,
+//     isStudent: true,
+//     sayHello: function () {
+//         console.log(`Hello, my name is ${this.name}`);
+//     },
+// };
+
+// user2.sayHello();
+
+// console.log(user2);
+
+// console.log(user2.name);
+// console.log(user2.age);
+
+// console.log(user2["name"]);
+
+// let book = {
+//     title: "Унесенные ветром",
+//     author: "Маргарет Митчелл",
+//     year: 1936,
+// };
+// console.log(book.title);
+// console.log(book.author);
+// console.log(book.year);
+// book.year = 1940;
+// console.log(book.year);
+
+
+// let car = {
+//     brand: "Toyota",
+//     year: 2007,
+//     getInfo: function () {
+//         console.log(`Brand: ${this.brand}, year: ${this.year}`);
+//     },
+// };
+// car.getInfo();
+
+// for (let key in user2) {
+//     console.log(key + ": " + user2[key]);
+// }
+
+let product = {
+    vid: "watermelon",
+    ves: 12,
+    tip: "berry",
+};
+
+for(let key in product) {
+    console.log(key + ": " + product[key]);
+}

@@ -122,3 +122,52 @@
 //     let result = a+b;
 //     return result * 2;
 // }
+
+// let numbersArr = [1, 2, 3, 4, 5];
+// console.log(numbersArr);
+
+// console.log(numbersArr[0]);
+// console.log(numbersArr[1]);
+
+// let colorsArr = ["green", "red", "blue"];
+// console.log(colorsArr[0]);
+// console.log(colorsArr[2]);
+// colorsArr[1] = "yellow";
+// console.log(colorsArr);
+
+// console.log(numbersArr.length);
+// numbersArr.push(10);
+// console.log(numbersArr);
+
+// numbersArr.pop();
+// console.log(numbersArr);
+
+// let students = [];
+// students.push("Елена");
+// students.push("Владимир");
+// students.push("Николай");
+// students.pop();
+// console.log(students);
+
+// let numbers2 = [10, 20, 30];
+// for (let i = 0; i < numbers2.length; i++) {
+//     console.log(numbers2[i]);
+// }
+
+// for (let value of numbers2) {
+//     console.log(value);
+// }
+
+// let mixedArray = [1, "text", true, 3.14];
+// console.log(mixedArray);
+
+// console.log(numbers2.includes(10));
+// console.log(numbers2.indexOf(20));
+
+let cities = ["Барселона", "Москва", "Будапешт", "Волгоград"];
+for (let value of cities) {
+    if (cities.includes("Барселона")) {
+        console.log(cities.indexOf("Барселона"));
+    }
+}
+

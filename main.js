@@ -54,10 +54,71 @@
 //     }
 // }
 
-for (let i = 1; i <= 5; i++) {
-    row = '';
-    for (let j = 1; j <i; j++) {
-        row+='*';
-    }
-    console.log(row);
-}
+// for (let i = 1; i <= 5; i++) {
+//     row = '';
+//     for (let j = 1; j <i; j++) {
+//         row+='*';
+//     }
+//     console.log(row);
+// }
+
+// function sum(a, b) {
+//     return a + b;
+// }
+// console.log(sum(3, 5));
+
+// function multiply(x, y){
+//     return x * y;
+// }
+// console.log(multiply(5, 8))
+
+// function sayHello(name){
+//     console.log(`Hello, ${name}`);
+// }
+// sayHello("Тимофей");
+
+// function printInfo(name, age){
+//     console.log(`Your name is ${name}, your age is ${age}`);
+// }
+// printInfo("Kakashi", 20);
+
+// function greet(name = "Гость") {
+//     console.log("Привет, " + name);
+// }
+// greet();
+// greet("Анастасия");
+
+//6.7. Практическое задание №3
+// function calculateDiscount(price, discount = 10) {
+//     return price - ((price * discount) / 100);
+// }
+
+// console.log(calculateDiscount(200));
+// console.log(calculateDiscount(200, 50));
+
+// const add = function(a, b) {
+//     return a + b;
+// };
+// console.log(add(2, 3));
+
+// function makeCounter() {
+//     let count = 0;
+//     return function () {
+//         count++;
+//         return count;
+//     };
+// }
+// const counter = makeCounter();
+// console.log(counter());
+// console.log(counter());
+// console.log(counter());
+
+// const sumFunc2 = (a, b) => a + b;
+// const double = x => x*2;
+// const sayGreeting = () => console.log("Hello");
+// const square = x => x * x;
+
+// const calculate = (a, b) => {
+//     let result = a+b;
+//     return result * 2;
+// }
